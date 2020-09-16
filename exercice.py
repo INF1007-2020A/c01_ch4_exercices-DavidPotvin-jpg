@@ -23,7 +23,7 @@ def get_nb_char(string: str, char: str) -> int:
 
 
 def get_nb_words(sentence: str) -> int:
-    return len([word for word in sentence.split(" ") if word != ""])
+    return len([word for word in sentence.split()
 
 
 def main() -> None:
