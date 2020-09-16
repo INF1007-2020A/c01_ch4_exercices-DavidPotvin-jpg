@@ -18,7 +18,7 @@ def get_nb_char(string: str, char: str) -> int:
     count = 0
     for elm in string:
         if elm == char:
-            count += 1
+            count = count + 1
     return count -1
 
 
