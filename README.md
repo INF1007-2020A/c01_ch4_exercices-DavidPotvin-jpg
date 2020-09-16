@@ -6,6 +6,7 @@
 
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
@@ -13,8 +14,8 @@ Score | Critères
 0/1 | Compte du nombre de mots dans une phrase
 1/1 | Parité du nombre de caractères
 1/1 | Retrait du 3e caractère
-0/1 | Remplacement d'un caractère
-2/5 | **Total**
+1/1 | Remplacement d'un caractère
+3/5 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 4)

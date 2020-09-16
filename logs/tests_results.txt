@@ -2,7 +2,7 @@ test_get_nb_char (__main__.TestExercice) ... FAIL
 test_get_nb_words (__main__.TestExercice) ... ERROR
 test_pair (__main__.TestExercice) ... ok
 test_remove_third_char (__main__.TestExercice) ... ok
-test_replace_char (__main__.TestExercice) ... FAIL
+test_replace_char (__main__.TestExercice) ... ok
 
 ======================================================================
 ERROR: test_get_nb_words (__main__.TestExercice)
@@ -33,22 +33,7 @@ First differing element 0:
 ?  ^  ^
  : Mauvais calcul du nombre d'occurences du caractère
 
-======================================================================
-FAIL: test_replace_char (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 49, in test_replace_char
-    'Erreur dans le remplacement de caractère'
-AssertionError: Lists differ: [None, None, None] != ['hey yad!', 'bbbbbb', 'a1234']
-
-First differing element 0:
-None
-'hey yad!'
-
-- [None, None, None]
-+ ['hey yad!', 'bbbbbb', 'a1234'] : Erreur dans le remplacement de caractère
-
 ----------------------------------------------------------------------
 Ran 5 tests in 0.001s
 
-FAILED (failures=2, errors=1)
+FAILED (failures=1, errors=1)
