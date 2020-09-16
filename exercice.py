@@ -19,7 +19,7 @@ def get_nb_char(string: str, char: str) -> int:
     for elm in string:
         if elm == char:
             count += 1
-    return count
+    return count -1
 
 
 def get_nb_words(sentence: str) -> int:
